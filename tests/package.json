@@ -1,0 +1,18 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-pim-app-login": "npx codeceptjs run --debug --verbose Authentication/login_test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.5.2",
+    "prettier": "^3.0.0",
+    "puppeteer": "^20.8.1"
+  }
+}
